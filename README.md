@@ -3,7 +3,7 @@
 
 The layout of the Basic calculator app was crafted using CSS grid and flex-box.
 It consist of five different sets of key buttons that are all children of the calculator-keys class.
-They include: the digits(0 = 9), operator(+,-,*,/ and =), a reset(AC), delete and decimal keys. All these keys are been listened to by the calculator to return their type by adding the keys.addEventListener('click', (event) => ...) function using event delegation.
+They include: the digits(0 - 9), operator(+,-,*,/ and =), a reset(AC), delete and decimal keys. All these keys are been listened to by the calculator to return their type by adding the keys.addEventListener('click', (event) => ...) function using event delegation.
 seven functions were created to achieve the functionality of the APP.
 1. function updateDisplay():
     This function is invoked anytime an operation is performed in the app to update the screen with the contents of the displayValue.
