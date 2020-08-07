@@ -1,5 +1,5 @@
 # basic-calculator
-# Designed by Eric Enanurekhan
+# Designed by Eric Enaburekhan
 
 The layout of the Basic calculator app was crafted using CSS grid and flex-box.
 It consist of five different sets of key buttons that are all children of the calculator-keys class.
