@@ -14,10 +14,10 @@ seven functions were created to achieve the functionality of the APP.
 4. function handleOperator(nextOperator):
     This function enables the contents of displayValue to be converted to floating-point number and the result stored in the firstOperand property. The operator property is also set to whatever operator key was clicked while waitingForSecondOperand is set to true which indicates that the first operand has been entered and whatever digits the user enters next will constitute the second operand.
 5.  function calculate(firstoperand, secondOperand, operator):
-     This function takes the first operand, second operand and operator as arguments and checks the value of the operator to determine to determine how the expression should be evaluated. If the operator is =, the second operand will be returned.
+     This function takes the first operand, second operand and operator as arguments and checks the value of the operator to determine how the expression should be evaluated. If the operator is =, the second operand will be returned.
 6.  function deleteText():
      This function uses the .pop() method to remove each displayValue on each click after being split.
-7.  function resetcalculator():
+7.  function resetCalculator():
      This function sets all the properties of the calculator object to their original values.          
        
        
